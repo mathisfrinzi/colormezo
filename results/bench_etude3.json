@@ -1,0 +1,100 @@
+{
+  "eta_grid": [
+    0.003,
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    1.0,
+    3.0
+  ],
+  "test_seeds": 40,
+  "conditions": [
+    {
+      "drift_mode": "read",
+      "sigma_g": 0.0,
+      "colormezo": {
+        "eta": 0.003,
+        "success_rate": 0.35,
+        "median_final_ratio": 1.1208378481285997,
+        "median_evals": 2779.0
+      },
+      "colormezo_geo": {
+        "eta": 0.1,
+        "success_rate": 0.55,
+        "median_final_ratio": 1.0107049098446117,
+        "median_evals": 1675.0
+      }
+    },
+    {
+      "drift_mode": "read",
+      "sigma_g": 0.005,
+      "colormezo": {
+        "eta": 0.003,
+        "success_rate": 0.375,
+        "median_final_ratio": 1.1048939302371945,
+        "median_evals": 2962.0
+      },
+      "colormezo_geo": {
+        "eta": 0.1,
+        "success_rate": 0.525,
+        "median_final_ratio": 1.0405166075298076,
+        "median_evals": 2134.0
+      }
+    },
+    {
+      "drift_mode": "read",
+      "sigma_g": 0.02,
+      "colormezo": {
+        "eta": 0.003,
+        "success_rate": 0.3,
+        "median_final_ratio": 1.1588667354634647,
+        "median_evals": 2681.0
+      },
+      "colormezo_geo": {
+        "eta": 0.1,
+        "success_rate": 0.25,
+        "median_final_ratio": 1.2594420890861113,
+        "median_evals": 1057.0
+      }
+    },
+    {
+      "drift_mode": "read",
+      "sigma_g": 0.05,
+      "colormezo": {
+        "eta": 0.003,
+        "success_rate": 0.225,
+        "median_final_ratio": 1.2286968834177128,
+        "median_evals": 1742.0
+      },
+      "colormezo_geo": {
+        "eta": 0.01,
+        "success_rate": 0.075,
+        "median_final_ratio": 2.1608871002541186,
+        "median_evals": 2006.0
+      }
+    },
+    {
+      "drift_mode": "step",
+      "sigma_g": 0.05,
+      "colormezo": {
+        "eta": 0.003,
+        "success_rate": 0.325,
+        "median_final_ratio": 1.1312265998661177,
+        "median_evals": 3602.0
+      },
+      "colormezo_geo": {
+        "eta": 0.1,
+        "success_rate": 0.2,
+        "median_final_ratio": 1.4163313157566257,
+        "median_evals": 1202.0
+      }
+    }
+  ],
+  "oracle": {
+    "eta": 0.1,
+    "success_rate": 0.55,
+    "median_final_ratio": 1.0111377175748897,
+    "median_evals": 1663.0
+  }
+}

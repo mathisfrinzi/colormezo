@@ -1,0 +1,569 @@
+{
+  "config": {
+    "h": 3,
+    "m": 12,
+    "n_data": 100,
+    "noise": 0.1,
+    "eps": 0.01,
+    "budget": 6000,
+    "tol": 1.05,
+    "bits": 12,
+    "sigma_g": 0.05,
+    "eta_grid": [
+      0.003,
+      0.01,
+      0.03,
+      0.1,
+      0.3
+    ],
+    "n_tune": 5,
+    "n_test": 20
+  },
+  "results": {
+    "mezo_exact": {
+      "eta": 0.1,
+      "tune_median_ratio": 0.9561742205516224,
+      "success_rate": 0.55,
+      "median_evals_to_success": 1594.0,
+      "median_final_ratio": 0.981141722827511,
+      "runs": [
+        {
+          "success": true,
+          "evals_to_success": 590,
+          "final_ratio": 0.8817347282735469
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.374992591117232
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.2421666805050384
+        },
+        {
+          "success": true,
+          "evals_to_success": 2358,
+          "final_ratio": 0.926433374530151
+        },
+        {
+          "success": true,
+          "evals_to_success": 1594,
+          "final_ratio": 0.9150080289864453
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.3016996902307678
+        },
+        {
+          "success": true,
+          "evals_to_success": 1738,
+          "final_ratio": 0.9940002830971874
+        },
+        {
+          "success": true,
+          "evals_to_success": 1414,
+          "final_ratio": 0.9377847650672063
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.5580996284657542
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 2.643703430217378
+        },
+        {
+          "success": true,
+          "evals_to_success": 2914,
+          "final_ratio": 0.9263559360646269
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.6937171449679547
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.2245610526407946
+        },
+        {
+          "success": true,
+          "evals_to_success": 4420,
+          "final_ratio": 0.9599896892823279
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.1059680998395112
+        },
+        {
+          "success": true,
+          "evals_to_success": 3826,
+          "final_ratio": 0.9682831625578346
+        },
+        {
+          "success": true,
+          "evals_to_success": 1378,
+          "final_ratio": 0.9215062593147333
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 7.5782342009543955
+        },
+        {
+          "success": true,
+          "evals_to_success": 1590,
+          "final_ratio": 0.9631661630043341
+        },
+        {
+          "success": true,
+          "evals_to_success": 344,
+          "final_ratio": 0.933793214898411
+        }
+      ]
+    },
+    "mezo_sensor_stable": {
+      "eta": 0.1,
+      "tune_median_ratio": 0.9561793236507389,
+      "success_rate": 0.55,
+      "median_evals_to_success": 1734.0,
+      "median_final_ratio": 0.9804537413572181,
+      "runs": [
+        {
+          "success": true,
+          "evals_to_success": 590,
+          "final_ratio": 0.8812990498834896
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.7944149442237676
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.2428404229426075
+        },
+        {
+          "success": true,
+          "evals_to_success": 2350,
+          "final_ratio": 0.9262647044546546
+        },
+        {
+          "success": true,
+          "evals_to_success": 1562,
+          "final_ratio": 0.9139516512501752
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.301823740729805
+        },
+        {
+          "success": true,
+          "evals_to_success": 1734,
+          "final_ratio": 0.9932311690899699
+        },
+        {
+          "success": true,
+          "evals_to_success": 1410,
+          "final_ratio": 0.937309328663798
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.5579053258742832
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 2.643118790837183
+        },
+        {
+          "success": true,
+          "evals_to_success": 3182,
+          "final_ratio": 0.9317120594326527
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.6943674855622068
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.2244410538438084
+        },
+        {
+          "success": true,
+          "evals_to_success": 4356,
+          "final_ratio": 0.9556865382058708
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.1087110332225407
+        },
+        {
+          "success": true,
+          "evals_to_success": 3826,
+          "final_ratio": 0.9676763136244663
+        },
+        {
+          "success": true,
+          "evals_to_success": 1376,
+          "final_ratio": 0.9214187632634934
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 6.146899984246784
+        },
+        {
+          "success": true,
+          "evals_to_success": 1784,
+          "final_ratio": 0.9571780586426638
+        },
+        {
+          "success": true,
+          "evals_to_success": 344,
+          "final_ratio": 0.9338609600602805
+        }
+      ]
+    },
+    "mezo_sensor_drift": {
+      "eta": 0.01,
+      "tune_median_ratio": 1.2051582011670128,
+      "success_rate": 0.05,
+      "median_evals_to_success": 1662.0,
+      "median_final_ratio": 2.7757182385084502,
+      "runs": [
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 4.850035909677723
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 3.4945019874850334
+        },
+        {
+          "success": true,
+          "evals_to_success": 1662,
+          "final_ratio": 1.0362838898759203
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.719750256375328
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.7306573420290465
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.5293574408908617
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.1651216444179873
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.3133210574977559
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 5.205911197761919
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 8.585673086621807
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 5.928706004938468
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.9408844220439851
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 10.055192742323559
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 5.3952136711219065
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 3.8416518287042334
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.3731374070446232
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 2.056934489531867
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 14.014459956339932
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 9.437107142783152
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.1142642678405383
+        }
+      ]
+    },
+    "colormezo_stable": {
+      "eta": 0.003,
+      "tune_median_ratio": 1.0652535473215112,
+      "success_rate": 0.35,
+      "median_evals_to_success": 3270.0,
+      "median_final_ratio": 1.1173945091774478,
+      "runs": [
+        {
+          "success": true,
+          "evals_to_success": 5904,
+          "final_ratio": 0.9766888581479186
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.3290724097052509
+        },
+        {
+          "success": true,
+          "evals_to_success": 1608,
+          "final_ratio": 0.9064130909660097
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.5707344681840214
+        },
+        {
+          "success": true,
+          "evals_to_success": 5042,
+          "final_ratio": 1.015874695569327
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.2686160079804703
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.1031599213895709
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.0637146991290838
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.6403122953325235
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.0737014254166135
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.1316290969653249
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.1852098281413435
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.2553784292393126
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 2.127885635030917
+        },
+        {
+          "success": true,
+          "evals_to_success": 1302,
+          "final_ratio": 0.9598388381219799
+        },
+        {
+          "success": true,
+          "evals_to_success": 4242,
+          "final_ratio": 1.0287876688695767
+        },
+        {
+          "success": true,
+          "evals_to_success": 3270,
+          "final_ratio": 0.9638633727538938
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 3.5969611514346154
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 4.298018010001746
+        },
+        {
+          "success": true,
+          "evals_to_success": 2142,
+          "final_ratio": 0.9299863138450062
+        }
+      ]
+    },
+    "colormezo_drift": {
+      "eta": 0.003,
+      "tune_median_ratio": 1.0876036438960224,
+      "success_rate": 0.3,
+      "median_evals_to_success": 3293.0,
+      "median_final_ratio": 1.1548853153388028,
+      "runs": [
+        {
+          "success": true,
+          "evals_to_success": 1430,
+          "final_ratio": 1.021459094143538
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.1432582448065685
+        },
+        {
+          "success": true,
+          "evals_to_success": 1502,
+          "final_ratio": 0.9893225778224104
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.5340226971317255
+        },
+        {
+          "success": true,
+          "evals_to_success": 5084,
+          "final_ratio": 1.0297971521432518
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.3007275320998184
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.0704433319099809
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.1397193582616196
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.6261347536584303
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.0645720739141118
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 3.5258214552095515
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.4390084877397926
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.3318796058169589
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 3.4565121760200057
+        },
+        {
+          "success": true,
+          "evals_to_success": 1236,
+          "final_ratio": 0.9603325553450823
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 1.1665123858710373
+        },
+        {
+          "success": true,
+          "evals_to_success": 5274,
+          "final_ratio": 1.0202776537516107
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 2.4412390871438485
+        },
+        {
+          "success": false,
+          "evals_to_success": null,
+          "final_ratio": 6.43915603800441
+        },
+        {
+          "success": true,
+          "evals_to_success": 5578,
+          "final_ratio": 1.0231323607319316
+        }
+      ]
+    }
+  }
+}

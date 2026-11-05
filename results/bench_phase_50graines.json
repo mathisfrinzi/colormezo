@@ -1,0 +1,78 @@
+{
+ "config": {
+  "bits_phase": 12,
+  "sigma_g": 0.05,
+  "budget": 6000,
+  "eps": 0.01,
+  "eta_grid": [
+   0.0001,
+   0.0003,
+   0.001,
+   0.003,
+   0.01,
+   0.03,
+   0.1,
+   0.3
+  ],
+  "n_tune": 5,
+  "n_test": 50
+ },
+ "results": {
+  "mezo_oracle": {
+   "success": 0.58,
+   "n_success": 29,
+   "n": 50,
+   "ratio_median": 1.0111377175748897,
+   "evals_median": 1734.0,
+   "eta": 0.1
+  },
+  "mezo_drift": {
+   "success": 0.08,
+   "n_success": 4,
+   "n": 50,
+   "ratio_median": 1.962250633193948,
+   "evals_median": 2451.0,
+   "eta": 0.01
+  },
+  "color_drift": {
+   "success": 0.24,
+   "n_success": 12,
+   "n": 50,
+   "ratio_median": 1.2241720245189667,
+   "evals_median": 1905.0,
+   "eta": 0.003
+  },
+  "color_stable": {
+   "success": 0.36,
+   "n_success": 18,
+   "n": 50,
+   "ratio_median": 1.1489290183847498,
+   "evals_median": 3398.0,
+   "eta": 0.003
+  },
+  "phase_rps2_drift": {
+   "success": 0.3,
+   "n_success": 15,
+   "n": 50,
+   "ratio_median": 1.2195874850267652,
+   "evals_median": 2374.0,
+   "eta": 0.003
+  },
+  "phase_rps2_stable": {
+   "success": 0.3,
+   "n_success": 15,
+   "n": 50,
+   "ratio_median": 1.2195874850267652,
+   "evals_median": 2374.0,
+   "eta": 0.003
+  },
+  "phase_rps1_drift": {
+   "success": 0.46,
+   "n_success": 23,
+   "n": 50,
+   "ratio_median": 1.0670934913089916,
+   "evals_median": 2617.0,
+   "eta": 0.001
+  }
+ }
+}
