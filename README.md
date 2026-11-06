@@ -91,7 +91,7 @@ Chaque run est sauvegardé et la reprise après déconnexion est automatique. Le
 ## Organisation
 
 ```
-idee-24-colormezo/
+colormezo/
 ├── README.md             # cette page
 ├── rapport/              # le rapport, un fichier par partie
 ├── src/                  # bancs du jouet (parties 1 à 4 et 6) et figures du rapport
